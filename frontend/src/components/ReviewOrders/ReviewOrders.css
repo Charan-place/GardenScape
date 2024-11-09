@@ -1,0 +1,56 @@
+.review-orders-container {
+    padding: 20px;
+  }
+  
+  .order-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+  }
+  
+  .order-card:hover {
+    transform: scale(1.02); /* Slightly scale the card on hover */
+  }
+  
+  .order-card h4 {
+    margin: 0 0 10px;
+  }
+  
+  .order-card p {
+    margin: 5px 0;
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+  }
+  
+  .accept-button, .reject-button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+  }
+  
+  .accept-button {
+    background-color: #28a745; /* Green color for accept */
+  }
+  
+  .reject-button {
+    background-color: #dc3545; /* Red color for reject */
+  }
+  
+  .accept-button:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .reject-button:hover {
+    background-color: #c82333; /* Darker red on hover */
+  }
+  
